@@ -20,12 +20,11 @@ body {
 
 /*Nav Bar*/
 
-
 nav {
   background-color: #7DDFE8;
   display: flex;
   width: 100%;
-  height: 30vh;
+  height: 20%;
 }
 
 .nav-links {
@@ -33,16 +32,19 @@ nav {
   flex-direction: column;
   width: 100%;
   text-align: center;
+  vertical-align: middle;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .logo-block {
-  width: 40vh;
+  width: 35%;
 }
 
 .page-logo {
@@ -259,6 +261,18 @@ li {
 
 
 @media screen and (min-width: 545px) and (max-width: 768px) {
+
+/*Nav Bar*/
+
+
+  .logo-block {
+    width: 20%;
+  }
+
+  nav {
+    height: 30%;
+  }
+
   .nav-links {
     flex-direction: row;
   }
@@ -268,29 +282,36 @@ li {
   }
 
   .home-nav {
-    width: 15%;
+    width: 20%;
     height: 100%;
-    padding-top: 6.5%;
+    padding-top: 7%;
     padding-bottom: 3%;
   }
 
   .calendar-nav {
-    width: 15%;
+    width: 20%;
     height: 100%;
-    padding-top: 6.5%;
+    padding-top: 7%;
     padding-bottom: 3%;
   }
 
   .join-nav {
-    width: 15%;
+    width: 20%;
     height: 100%;
-    padding-top: 6.5%;
+    padding-top: 7%;
     padding-bottom: 3%;
   }
 
   .subtitles {
     display: flex;
   }
+
+
+/*Main Body*/
+
+
+/*Get Involved*/
+
 
   .box-1, .box-2, .box-3 {
     margin-right: 5%;
@@ -307,6 +328,10 @@ li {
   .Rashomon-content {
     margin-left: -5%;
   }
+
+
+/*Next Showings*/
+
 
   .next-showings {
     flex-wrap: nowrap;
@@ -357,11 +382,16 @@ li {
     font-size: 10px;
   }
 
+
+/*Footer*/
+
+
   .nav-links p {
-    margin-left: 37%;
+    margin-left: 21%;
   }
 
 }
+
 
 /*Misc.*/
 
