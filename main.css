@@ -647,68 +647,68 @@ li {
   /*Desktop Size*/
 
 
-  @media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
 
 
-    .profile-pic {
-      width: 40%;
+  .profile-pic {
+    width: 40%;
 
-    }
+  }
 
-    .profile-pic img {
-      width: 90%;
-      border-radius: 100%;
-      padding-top: 5%;
-      margin-left: 0%;
-      margin-right: 20%;
-    }
+  .profile-pic img {
+    width: 90%;
+    border-radius: 100%;
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-right: 20%;
+  }
 
-    .form-section-1 {
-      display: flex;
-    }
+  .form-section-1 {
+    display: flex;
+  }
 
-    .input-form {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      width: 90%;
-      height: 130px;
-    }
+  .input-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    height: 130px;
+  }
 
-    .input-form input {
-      margin-right: 5%;
-    }
+  .input-form input {
+    margin-right: 5%;
+  }
 
-    .form-1 {
-      width: 40%;
-    }
+  .form-1 {
+    width: 40%;
+  }
 
-    .checkbox-form {
-      height: 170px;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
+  .checkbox-form {
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
-    .checkbox-form input{
-      width: 20%;
-      margin-right: -10%;
-    }
+  .checkbox-form input{
+    width: 20%;
+    margin-right: -10%;
+  }
 
-    .submit-button {
-      font-size: 16px;
-      padding-top: 3%;
-      padding-bottom:-2%;
-    }
-
-
-    /*Footer*/
+  .submit-button {
+    font-size: 16px;
+    padding-top: 3%;
+    padding-bottom:-2%;
+  }
 
 
-    .nav-links p {
-      margin-left: 34%;
-      font-size: 14px;
-    }
+  /*Footer*/
+
+
+  .nav-links p {
+    margin-left: 34%;
+    font-size: 14px;
+  }
 
 }
 
@@ -716,10 +716,10 @@ li {
 /*Misc.*/
 
 
-  .calendar-table {
-    border: 1px solid black;
-  }
+.calendar-table {
+  border: 1px solid black;
+}
 
-  td{
-    border: 1px solid black;
-  }
+td{
+  border: 1px solid black;
+}
