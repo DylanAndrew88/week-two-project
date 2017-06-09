@@ -14,43 +14,63 @@
 
     <header>
       <nav>
-        <a href="home.html">Home</a>
-        <a href="calendar.html">Calendar</a>
-        <a href="join.html">Join</a>
+        <div class="logo-block">
+          <img class= "page-logo" src="images/filmclub.png" alt="film club logo">
+        </div>
+        <div class= "nav-links">
+          <div class= "home-nav">
+            <a href="home.html">Home</a>
+          </div>
+          <div class= "calendar-nav">
+            <a href="calendar.html">Calendar</a>
+          </div>
+          <div class= "join-nav">
+            <a href="join.html">Join</a>
+          </div>
+        </div>
       </nav>
     </header>
 
-    <h2>Get Involved</h2>
+  <div class="join-body">
+    <h2>Join Film Club</h2>
 
-    <div class="forms">
       <div class="form-section-1">
-        <div class="profil-pic">
+        <div class="profile-pic">
           <p>profile picture</p>
           <form class="profilepic-form">
           <fieldset class="profilepic-controls">
-          <div>
-            <img src="https://codiqa.com/static/images/v2/image.png" alt="profilepic">
             <input type="file" name="profilepic-input" class="camerainput1" accept="image/*" capture="camera"></input>
-          </div>
+            <img class"profilepic" src="images/profile-placeholder.png" alt="profile placeholder">
           </fieldset>
           </form>
         </div>
 
-        <form>
-          <p>name</p><br>
+        <form class="input-form">
+          <div class="form-1">
+          <p>name</p>
           <input type="text" name="name"></input>
-          <p>email address</p><br>
+        </div>
+          <div class="form-1">
+          <p>email address</p>
           <input type="text" name="email"></input>
-          <p>password</p><br>
+        </div>
+          <div class="form-1">
+          <p>password</p>
           <input type="text" name="password"></input>
-          <p>confirm password</p><br>
+        </div>
+          <div class="form-1">
+          <p>confirm password</p>
           <input type="text" name="password-2"></input>
+          </div>
+        </div>
         </form>
       </div>
+    </div>
+  </div>
 
       <div class="form-section-2">
         <p>Which genres are you interested in?</p>
-        <form action="/action_page.php" method="get">
+        <form class= "checkbox-form" action="/action_page.php" method="get">
           <input type="checkbox" name="genre" value="action">action<br>
           <input type="checkbox" name="genre" value="adventure">adventure<br>
           <input type="checkbox" name="genre" value="comedy">comedy<br>
@@ -63,23 +83,30 @@
           <input type="checkbox" name="genre" value="sci-fi">science fiction<br>
           <input type="checkbox" name="genre" value="western">western<br>
         </form>
+      </div>
 
+      <div class="add-input">
         <form>
           <p>Additional input</p>
           <input type="text" name="add-info"></input>
+        </form>
       </div>
+
 
       <input class="submit-button" type="submit" value="Join Film Club">
     </div>
+  </div>
 
-    <footer>
-      <nav>
-        <a href="home.html">Home</a>
-        <a href="calendar.html">Calendar</a>
-        <a href="join.html">Join</a>
+  <footer>
+    <nav>
+      <div class= "nav-links">
+        <a class= "home-nav" href="home.html">Home</a>
+        <a class= "calendar-nav" href="calendar.html">Calendar</a>
+        <a class= "join-nav" href="join.html">Join</a>
         <p>© 2017, Film Club</p>
-      </nav>
-    </footer>
+      </div>
+    </nav>
+  </footer>
 
   </body>
 </html>
