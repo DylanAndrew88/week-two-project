@@ -585,6 +585,7 @@ li {
     margin-bottom: 10%;
   }
 
+
 /*Tablet Styling*/
 
 
@@ -621,27 +622,36 @@ li {
 
   .form-section-2 {
     height: 400px;
+    margin-bottom: -8%;
   }
 
   .checkbox-form {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    height: 400px;
+    display: inline;
+  }
+
+  .checkbox-form div {
+    padding-bottom: 3%;
   }
 
   .right-col {
     padding-left: 50%;
+    margin-top: -9%;
+    padding-bottom: 3%;
   }
 
   .submit-button {
     padding-left: 3%;
     padding-right: 3%;
-
-
-
-
   }
+
+
+  /*Desktop Size*/
+
+
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+
+
+
 
 
 
