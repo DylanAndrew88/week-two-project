@@ -713,13 +713,30 @@ li {
 }
 
 
-/*Misc.*/
+/*Calendar.*/
 
 
 .calendar-table {
-  border: 1px solid black;
+  background-color: #0B1942;
+  width: 100%;
+  height: 300px;
+  padding-bottom: 5%;
+}
+
+th {
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+.calendar-table p {
+  background-color: #0B1942;
+  margin-bottom: 20%;
+  margin-right: 20%;
+  color: #FFFFFF;
 }
 
 td{
-  border: 1px solid black;
+  background-color: #FFFFFF;
+  margin-bottom: 10%;
+  margin-right: 20%;
 }
