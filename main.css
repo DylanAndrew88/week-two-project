@@ -542,7 +542,7 @@ li {
   }
 
   .camerainput1 {
-    margin-left: -4%;
+    margin-left: 0%;
   }
 
   .profile-pic img {
@@ -590,13 +590,54 @@ li {
 
 @media screen and (min-width: 545px) and (max-width: 768px) {
 
-  .profile-pic img {
+
+  .profile-pic {
     width: 50%;
-    border-radius: 100%;
-    padding-top: 10%;
-    margin-left: -3%;
-    margin-right: 50%;
   }
+
+  .profile-pic img {
+    width: 90%;
+    border-radius: 100%;
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-right: 20%;
+  }
+
+  .form-section-1 {
+    display: flex;
+  }
+
+  .input-form {
+    margin-left: 0%;
+  }
+
+  .input-form {
+    width: 100%;
+  }
+
+  .form-break {
+    margin-top: 15%;
+  }
+
+  .form-section-2 {
+    height: 400px;
+  }
+
+  .checkbox-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 400px;
+  }
+
+  .right-col {
+    padding-left: 50%;
+  }
+
+  .submit-button {
+    padding-left: 3%;
+    padding-right: 3%;
+
 
 
 

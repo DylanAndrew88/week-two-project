@@ -37,12 +37,8 @@
       <div class="form-section-1">
         <div class="profile-pic">
           <p>profile picture</p>
-          <form class="profilepic-form">
-          <fieldset class="profilepic-controls">
-            <input type="file" name="profilepic-input" class="camerainput1" accept="image/*" capture="camera"></input>
+            <input type="file" name="profilepic-input" class="camerainput1" accept="image/*" capture="camera"></input><br>
             <img class"profilepic" src="images/profile-placeholder.png" alt="profile placeholder">
-          </fieldset>
-          </form>
         </div>
 
         <form class="input-form">
@@ -55,7 +51,7 @@
           <input type="text" name="email"></input>
         </div>
           <div class="form-1">
-          <p>password</p>
+          <p class="form-break">password</p>
           <input type="text" name="password"></input>
         </div>
           <div class="form-1">
@@ -71,17 +67,17 @@
       <div class="form-section-2">
         <p>Which genres are you interested in?</p>
         <form class= "checkbox-form" action="/action_page.php" method="get">
-          <input type="checkbox" name="genre" value="action">action<br>
-          <input type="checkbox" name="genre" value="adventure">adventure<br>
-          <input type="checkbox" name="genre" value="comedy">comedy<br>
-          <input type="checkbox" name="genre" value="drama">drama<br>
-          <input type="checkbox" name="genre" value="fantasy">fantasy<br>
-          <input type="checkbox" name="genre" value="historical">historical<br>
-          <input type="checkbox" name="genre" value="horror">horror<br>
-          <input type="checkbox" name="genre" value="mystery">mystery<br>
-          <input type="checkbox" name="genre" value="romance">romance<br>
-          <input type="checkbox" name="genre" value="sci-fi">science fiction<br>
-          <input type="checkbox" name="genre" value="western">western<br>
+          <div><input type="checkbox" name="genre" value="action">action</input></div>
+          <div class="right-col"v><input type="checkbox" name="genre" value="adventure">adventure</input></div>
+          <div><input type="checkbox" name="genre" value="comedy">comedy</input></div>
+          <div class="right-col"><input type="checkbox" name="genre" value="drama">drama</input></div>
+          <div><input type="checkbox" name="genre" value="fantasy">fantasy</input></div>
+          <div class="right-col"><input type="checkbox" name="genre" value="historical">historical</input></div>
+          <div><input type="checkbox" name="genre" value="horror">horror</input></div>
+          <div class="right-col"><input type="checkbox" name="genre" value="mystery">mystery</input></div>
+          <div class="romance"><input type="checkbox" name="genre" value="romance">romance</input></div>
+          <div class="right-col"><input type="checkbox" name="genre" value="sci-fi">science fiction</input></div>
+          <div><input type="checkbox" name="genre" value="western">western</input></div>
         </form>
       </div>
 
