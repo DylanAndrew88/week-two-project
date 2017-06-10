@@ -728,6 +728,7 @@ th {
   font-weight: lighter;
   padding-top: 5%;
   padding-bottom: 5%;
+  font-size: 19px;
 
 }
 
@@ -755,6 +756,28 @@ td{
   padding-bottom: 5%;
 }
 
-.pink-br td {
+#pink-br {
   background-color: #F5005B;
+}
+
+#pink-br2 {
+  background-color: #F5005B;
+}
+
+
+/*Tablet Styling*/
+
+
+@media screen and (min-width: 545px) and (max-width: 768px) {
+
+
+  /*Footer*/
+
+
+  .nav-links p {
+    font-size: 14px;
+    margin-left: 18%;
+  }
+
+
 }
