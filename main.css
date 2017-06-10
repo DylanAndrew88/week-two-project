@@ -14,7 +14,7 @@
 
 body {
   min-width: 320px;
-  min-height: 1000px;
+  min-height: 400px;
 }
 
 
@@ -726,17 +726,35 @@ li {
 th {
   color: #FFFFFF;
   font-weight: lighter;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
 }
 
 .calendar-table p {
   background-color: #0B1942;
   margin-bottom: 20%;
-  margin-right: 20%;
+  margin-right: 55%;
+  margin-top: -3%;
+  margin-left: -5%;
+  padding-top: 3%;
+  text-align: center;
   color: #FFFFFF;
+  font-size: 12px;
+  border-top: 5px solid #0B1942;
+  border-bottom: 5px solid #0B1942;
+  border-left: 7px solid #0B1942;
+  border-right: 10px solid #0B1942;
 }
 
 td{
   background-color: #FFFFFF;
   margin-bottom: 10%;
   margin-right: 20%;
+  border: 1px solid #0B1942;
+  padding-bottom: 5%;
+}
+
+.pink-br td {
+  background-color: #F5005B;
 }
