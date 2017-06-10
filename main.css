@@ -729,7 +729,6 @@ th {
   padding-top: 5%;
   padding-bottom: 5%;
   font-size: 19px;
-
 }
 
 .calendar-table p {
@@ -770,6 +769,9 @@ td{
 
 @media screen and (min-width: 545px) and (max-width: 768px) {
 
+  th {
+    font-size: 24px;
+  }
 
   /*Footer*/
 
@@ -781,3 +783,21 @@ td{
 
 
 }
+
+
+/*Desktop Size*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .calendar h2 {
+    padding-bottom: 5%;
+  }
+
+  .calendar-table p {
+    margin-left: -3%;
+  }
+
+  th {
+    font-size: 29px;
+  }
